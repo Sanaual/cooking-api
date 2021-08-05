@@ -1,0 +1,21 @@
+body{
+    background-color:#EDD263;
+}
+img{
+    width:250px;
+}
+#items{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap : 30px;
+}
+.detail-info{
+    background-color:white;
+    text-align:center;
+}
+.detail-info img{
+    width:300px;
+}
+#item{
+    text-align:center;
+}
