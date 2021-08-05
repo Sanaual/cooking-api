@@ -45,6 +45,7 @@ const showDetails = (item) => {
             const detailInfo = `
         <img src = "${mainItem.strMealThumb}"/>
         <h3>${mainItem.strMeal}</h3>
+         <h4>Ingredients:</h4>
         <p>${mainItem.strIngredient1}</p>
         <p>${mainItem.strIngredient2}</p>
         <p>${mainItem.strIngredient3}</p>
